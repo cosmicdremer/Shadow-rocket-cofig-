@@ -13,8 +13,8 @@ https://raw.githubusercontent.com/cosmicdremer/Shadow-rocket-cofig-/main/Shadowr
 ## 分组(25 组,分三类)
 
 - A 钉死组(select,手动选 1 个):美国固定(AI/谷歌/YouTube)、日本固定(Spotify);AI 组只含美国固定,Spotify 组只含日本固定。
-- B 地区测速组(url-test):香港/台湾/日本/新加坡/韩国/美国节点,供流媒体等手动换地区用。
-- C 服务组(select,默认已定):YouTube、谷歌服务默认美国固定;Netflix、Disney+、Max、TikTok、Telegram、Facebook 默认 PROXY;Twitter 默认美国节点;苹果服务、微软服务、哔哩哔哩默认 DIRECT。
+- B 地区测速组(url-test):香港/台湾/日本/新加坡/韩国/美国/欧洲节点,供流媒体等手动换地区用。
+- C 服务组(select,默认已定):YouTube、谷歌服务默认美国固定;韩国服务默认韩国节点;欧洲服务默认欧洲节点;Netflix、Disney+、Max、TikTok、Telegram、Facebook 默认 PROXY;Twitter 默认美国节点;苹果服务、微软服务、哔哩哔哩默认 DIRECT。
 
 ## 分流(钉死,不自动跳)
 
@@ -44,3 +44,5 @@ https://raw.githubusercontent.com/cosmicdremer/Shadow-rocket-cofig-/main/Shadowr
 报问题时请带:打勾的配置名、换的是哪个组、关解密后的结果、报错截图。
 
 证书不用重新生成:证书是手机/小火箭自己的,不是某个配置的。换配置只需在新配置上打开 HTTPS 解密,证书沿用已生成并信任的那一张;只有证书失效、过期或不是本机生成的,才重新生成。
+
+谷歌地图在内:maps.google.com、maps.googleapis.com 走美国固定(原先 google.com、googleapis.com 已覆盖)。韩国常用:Kakao、Daum、Naver、Melon、Coupang、Toss、Baemin 走韩国服务;欧洲常用:Booking、Skyscanner、Revolut、Wise、Deezer、BBC、Trainline、Bolt、FlixBus、Vinted 走欧洲服务,另有韩国/欧洲 GEOIP 兜底。Spotify 仍走日本固定,不进欧洲组。若某韩国/欧洲 App 不在名单里,请报 App 名再补域名。若订阅里没有韩国或欧洲节点,对应组会是空的,相关 App 会打不开,先在分组页确认组里有节点。
