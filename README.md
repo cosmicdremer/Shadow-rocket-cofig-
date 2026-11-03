@@ -10,6 +10,12 @@ https://raw.githubusercontent.com/cosmicdremer/Shadow-rocket-cofig-/main/Shadowr
 
 导入:小火箭「配置」页右上角 + > 粘贴上面链接下载 > 点这一行 > 使用配置。不要把 README 里的文字当配置文件导入,README 不是配置文件。
 
+## 分组(25 组,分三类)
+
+- A 钉死组(select,手动选 1 个):美国固定(AI/谷歌/YouTube)、日本固定(Spotify);AI 组只含美国固定,Spotify 组只含日本固定。
+- B 地区测速组(url-test):香港/台湾/日本/新加坡/韩国/美国节点,供流媒体等手动换地区用。
+- C 服务组(select,默认已定):YouTube、谷歌服务默认美国固定;Netflix、Disney+、Max、TikTok、Telegram、Facebook 默认 PROXY;Twitter 默认美国节点;苹果服务、微软服务、哔哩哔哩默认 DIRECT。
+
 ## 分流(钉死,不自动跳)
 
 - AI:Gemini、ChatGPT、Claude、Grok、Perplexity、DeepSeek、Copilot、Poe 等 + muse.ai → 美国固定
@@ -36,3 +42,5 @@ https://raw.githubusercontent.com/cosmicdremer/Shadow-rocket-cofig-/main/Shadowr
 2. 还打不开,在美国固定里换另一个美国节点重开。能开 = 刚才那个节点死了。
 
 报问题时请带:打勾的配置名、换的是哪个组、关解密后的结果、报错截图。
+
+证书不用重新生成:证书是手机/小火箭自己的,不是某个配置的。换配置只需在新配置上打开 HTTPS 解密,证书沿用已生成并信任的那一张;只有证书失效、过期或不是本机生成的,才重新生成。
